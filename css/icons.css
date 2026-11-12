@@ -1,0 +1,70 @@
+/* Font Awesome Free 6.7.2 by Fonticons, Inc. https://fontawesome.com
+ * Fonts: SIL OFL 1.1. Full license: assets/ikon/fontawesome/LICENSE.txt
+ * Scoped to Why Insight, Explore cards, and footer Contact icons only.
+ */
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../assets/ikon/fontawesome/fa-solid-900.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../assets/ikon/fontawesome/fa-brands-400.woff2") format("woff2");
+}
+.site-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  font-style: normal;
+}
+.site-icon::before {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.site-icon-brand::before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+footer .contact-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+footer .contact-icon {
+  width: 16px;
+  height: 16px;
+  font-size: 15px;
+  color: inherit;
+}
+.icon-shield-halved::before { content: "\f3ed"; }
+.icon-bullseye::before { content: "\f140"; }
+.icon-circle-check::before { content: "\f058"; }
+.icon-award::before { content: "\f559"; }
+.icon-chart-line::before { content: "\f201"; }
+.icon-headset::before { content: "\f590"; }
+.icon-tag::before { content: "\f02b"; }
+.icon-layer-group::before { content: "\f5fd"; }
+.icon-file-pdf::before { content: "\f1c1"; }
+.icon-cube::before { content: "\f1b2"; }
+.icon-location-dot::before { content: "\f3c5"; }
+.icon-circle-play::before { content: "\f144"; }
+.icon-arrow-right::before { content: "\f061"; }
+.icon-phone::before { content: "\f095"; }
+.icon-envelope::before { content: "\f0e0"; }
+.icon-whatsapp::before { content: "\f232"; }
+.icon-instagram::before { content: "\f16d"; }
